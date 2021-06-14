@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Array/Array.iml" filepath="$PROJECT_DIR$/../Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Collection/Collection.iml" filepath="$PROJECT_DIR$/../Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DeepCopy/DeepCopy.iml" filepath="$PROJECT_DIR$/../DeepCopy/DeepCopy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Finally/Finally.iml" filepath="$PROJECT_DIR$/../Finally/Finally.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Generic/Generic.iml" filepath="$PROJECT_DIR$/../Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../IO/IO.iml" filepath="$PROJECT_DIR$/../IO/IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Inet/Inet.iml" filepath="$PROJECT_DIR$/../Inet/Inet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java8NewFunction/Java8NewFunction.iml" filepath="$PROJECT_DIR$/../Java8NewFunction/Java8NewFunction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic.iml" filepath="$PROJECT_DIR$/JavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/../LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LinearList/LinearList.iml" filepath="$PROJECT_DIR$/../LinearList/LinearList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Map/Map.iml" filepath="$PROJECT_DIR$/../Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MultiThread/MultiThread.iml" filepath="$PROJECT_DIR$/../MultiThread/MultiThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Reflection/Reflection.iml" filepath="$PROJECT_DIR$/../Reflection/Reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../String/String.iml" filepath="$PROJECT_DIR$/../String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Tests/Tests.iml" filepath="$PROJECT_DIR$/../Tests/Tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Thread/Thread.iml" filepath="$PROJECT_DIR$/../Thread/Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volatile/Volatile.iml" filepath="$PROJECT_DIR$/Volatile/Volatile.iml" />
+    </modules>
+  </component>
+</project>
