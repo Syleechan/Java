@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed597a35-e8a6-4c94-ac46-7146122a8199" name="Default Changelist" comment="" />
+    <list default="true" id="ed597a35-e8a6-4c94-ac46-7146122a8199" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1lUbCW95XRTRlmQub4xmOzXfboz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -38,6 +44,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -85,20 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solution179.test">
-    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProductorConSumer.Syncronized.P" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProductorConSumer.Syncronized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HeapSort.test">
     <configuration name="Tests" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <module name="Array" />
@@ -138,6 +132,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HeapSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HeapSort" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shuffler.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Array" />
       <extension name="coverage">
@@ -166,19 +170,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Tests" />
-      <item itemvalue="Application.P" />
       <item itemvalue="JUnit.Choujiang.test" />
       <item itemvalue="JUnit.Shuffler.test" />
       <item itemvalue="JUnit.Design.test" />
       <item itemvalue="JUnit.Solution179.test" />
+      <item itemvalue="JUnit.HeapSort.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapSort.test" />
         <item itemvalue="JUnit.Solution179.test" />
         <item itemvalue="JUnit.Design.test" />
         <item itemvalue="JUnit.Shuffler.test" />
         <item itemvalue="JUnit.Choujiang.test" />
-        <item itemvalue="Application.P" />
       </list>
     </recent_temporary>
   </component>
@@ -329,12 +333,24 @@
       <workItem from="1622622329954" duration="4403000" />
       <workItem from="1622638222345" duration="863000" />
       <workItem from="1623141696813" duration="11000" />
-      <workItem from="1623659221560" duration="890000" />
+      <workItem from="1623659221560" duration="1561000" />
+      <workItem from="1623740595509" duration="905000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -479,14 +495,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../LeetCode/src/Solution179.java</url>
-          <line>30</line>
-          <properties class="Solution179" method="quickSort">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../LinearList/src/prac/BigHeap.java</url>
