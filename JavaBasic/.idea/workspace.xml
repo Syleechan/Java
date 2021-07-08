@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed597a35-e8a6-4c94-ac46-7146122a8199" name="Default Changelist" comment="code">
+    <list default="true" id="ed597a35-e8a6-4c94-ac46-7146122a8199" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LeetCode/O/Byte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Finally/Finally.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Finally/Finally.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,10 +93,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solution336.test">
+  <component name="RunManager" selected="JUnit.Byte.test">
     <configuration name="Ac482" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ac482" />
       <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Finally" />
+      <module name="Finally" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,20 +115,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Byte.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeapSort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution179.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Solution179" />
+      <option name="MAIN_CLASS_NAME" value="Byte" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -149,18 +148,18 @@
     <list>
       <item itemvalue="Application.Tests" />
       <item itemvalue="Application.Ac482" />
-      <item itemvalue="JUnit.Solution179.test" />
-      <item itemvalue="JUnit.HeapSort.test" />
+      <item itemvalue="Application.Finally" />
       <item itemvalue="JUnit.test.test" />
       <item itemvalue="JUnit.Solution336.test" />
+      <item itemvalue="JUnit.Byte.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Byte.test" />
+        <item itemvalue="Application.Finally" />
         <item itemvalue="JUnit.Solution336.test" />
         <item itemvalue="JUnit.test.test" />
         <item itemvalue="Application.Ac482" />
-        <item itemvalue="JUnit.HeapSort.test" />
-        <item itemvalue="JUnit.Solution179.test" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +318,8 @@
       <workItem from="1624588613389" duration="96000" />
       <workItem from="1625395346149" duration="1885000" />
       <workItem from="1625474420716" duration="1428000" />
+      <workItem from="1625710760689" duration="824000" />
+      <workItem from="1625736463649" duration="3824000" />
     </task>
     <task id="LOCAL-00001" summary="heapsort">
       <created>1623741783397</created>
@@ -334,7 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624588685887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="7.8">
+      <created>1625710790425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625710790425</updated>
+    </task>
+    <task id="LOCAL-00004" summary="7.8">
+      <created>1625710847437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625710847437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +374,8 @@
     </ignored-roots>
     <MESSAGE value="heapsort" />
     <MESSAGE value="code" />
-    <option name="LAST_COMMIT_MESSAGE" value="code" />
+    <MESSAGE value="7.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,14 +518,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../LeetCode/O/Solution336.java</url>
-          <line>40</line>
-          <properties class="Solution336" method="addTrie">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../LeetCode/O/Solution336.java</url>
           <line>59</line>
           <properties class="Solution336" method="search">
             <option name="EMULATED" value="true" />
@@ -550,11 +558,6 @@
           <url>file://$PROJECT_DIR$/../LeetCode/src/S530.java</url>
           <line>52</line>
           <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../LeetCode/O/Solution336.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
